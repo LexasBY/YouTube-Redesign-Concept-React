@@ -1,0 +1,13 @@
+.main-content {
+    flex: 3;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+  .divider {
+    margin: 20px 0;
+    border: 0;
+    height: 1px;
+    background: #ddd;
+  }
+  
