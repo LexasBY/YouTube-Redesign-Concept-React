@@ -23,13 +23,13 @@ function PlayerControls() {
 
       <div className="player__controls">
         <div className="player__btn-group player__btn-group_left">
-          <button className="btn">
+          <button className="btn btn_pause">
             <img src={pauseButton} alt="Pause Icon" />
           </button>
-          <button className="btn">
+          <button className="btn btn_next">
             <img src={nextButton} alt="Next Video Icon" />
           </button>
-          <button className="btn">
+          <button className="btn btn_mute">
             <img src={muteButton} alt="Mute Icon" />
           </button>
           <div className="progress_small">
@@ -38,16 +38,16 @@ function PlayerControls() {
         </div>
 
         <div className="player__btn-group player__btn-group_right">
-          <button className="btn">
+          <button className="btn btn_subtitles">
             <img src={subtitlesButton} alt="Subtitles Icon" />
           </button>
-          <button className="btn">
+          <button className="btn btn_settings">
             <img src={settingsButton} alt="Settings Icon" />
           </button>
-          <button className="btn">
+          <button className="btn btn_theather">
             <img src={theatherButton} alt="Theater Mode Icon" />
           </button>
-          <button className="btn">
+          <button className="btn btn_fullscreen">
             <img src={fullscreenButton} alt="Full Screen Icon" />
           </button>
         </div>

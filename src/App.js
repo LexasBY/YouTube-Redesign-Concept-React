@@ -8,13 +8,9 @@ function App() {
     <div className="app-container">
       <Header />
       <div className="page-content">
-        <div className="main-content">
-          <MainContent />
-        </div>
+        <MainContent />
 
-        <div className="sidebar">
-          <Sidebar />
-        </div>
+        <Sidebar />
       </div>
     </div>
   );

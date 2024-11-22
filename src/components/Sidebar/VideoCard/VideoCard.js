@@ -1,7 +1,7 @@
 import React from 'react';
 import './VideoCard.css';
 
-function VideoCard({ thumbnail, duration, title, views, timeAgo, category }) {
+function VideoCard({ thumbnail, duration, title, views, category }) {
   return (
     <div className="video">
       <div className="video__thumbnail">

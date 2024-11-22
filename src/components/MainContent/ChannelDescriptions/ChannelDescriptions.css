@@ -1,26 +1,99 @@
 .food-and-drink {
-    display: flex;
-    align-items: center;
-    margin-top: 20px;
-  }
-  
-  .author-avatar {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-right: 20px;
-  }
-  
-  .author-details {
-    flex-grow: 1;
-  }
-  
-  .subscribe-button {
-    padding: 5px 10px;
-    background-color: red;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between; 
+  margin-top: 38px;
+  gap: 10px; 
+}
+
+.author-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-left: -5px
+}
+
+.author-details {
+  flex-grow: 1; 
+  width: 912px; 
+  height: 195px; 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: space-between; 
+  box-sizing: border-box; 
+}
+
+.author-title {
+  font-family: 'Mulish', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 32.63px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin: 0;
+  color: #19202c; 
+}
+
+.author-date {
+  font-family: 'Mulish', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16.32px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin: 5px 0;
+  color: #898989;
+}
+
+.author-description {
+  font-family: 'Mulish', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin: 10px 0;
+  color: #444;
+  letter-spacing: 0.3px;
+}
+
+.show-more {
+  font-family: 'Mulish', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25.1px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #d6d6d6;
+  cursor: pointer;
+  margin-top: 3px; 
+  letter-spacing: 0.4px;
+}
+
+.subscribe-button {
+  padding: 10px 22px;
+  background-color: #ff0000;
+  color: white;
+  font-family: 'Mulish', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  align-self: flex-start;
+  margin-left: 285px;
+  white-space: nowrap;
+}
+
+
+.subscribe-button:hover {
+  background-color: #cc0000;
+}

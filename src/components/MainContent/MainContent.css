@@ -1,13 +1,17 @@
 .main-content {
-    flex: 3;
-    padding: 20px;
-    overflow-y: auto;
-  }
+  width: 1363px; 
+  height: auto; 
+  margin-top: 23px;
+  margin-left: 80px; 
+  margin-right: 40px; 
+  display: flex;
+  flex-direction: column;
   
-  .divider {
-    margin: 20px 0;
-    border: 0;
-    height: 1px;
-    background: #ddd;
-  }
-  
+}
+
+.divider {
+  margin: 0px 0;
+  border: 0;
+  height: 1px;
+  background: #ddd;
+}
