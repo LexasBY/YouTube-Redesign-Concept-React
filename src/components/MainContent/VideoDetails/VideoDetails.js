@@ -12,15 +12,15 @@ function VideoDetails() {
       <div className="video-stats">
         <p className="video-views">123k views</p>
         <div className="video-actions">
-          <button className="video-action-btn">
+          <button className="video-action-btn video-action-btn-like">
             <img src={likeIkon} alt="Like Icon" />
             <span>123k</span>
           </button>
-          <button className="video-action-btn">
+          <button className="video-action-btn video-action-btn-dislike">
             <img src={dislikeIkon} alt="Dislike Icon" />
             <span>435k</span>
           </button>
-          <button className="video-action-btn">
+          <button className="video-action-btn video-action-btn-share">
             <img src={arrowIkon} alt="arrowIkon Icon" />
             <span>Share</span>
           </button>
