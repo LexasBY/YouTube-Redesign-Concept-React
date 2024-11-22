@@ -1,6 +1,6 @@
 .header {
   .wrapper {
-    margin: 0 auto;
+    margin: 7px 0 0 10px;
     max-width: 1920px;
     display: flex;
     flex-direction: row;
@@ -15,7 +15,7 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  gap: 28px;
+  gap: 26px;
 }
 
 .header__logo {
@@ -44,7 +44,7 @@
 
 .header__search-input .header__search-icon {
   position: absolute;
-  right: 17px;
+  right: 14px;
   top: 50%;
   transform: translateY(-50%);
 }
@@ -55,6 +55,7 @@
   justify-content: flex-end;
   align-items: center;
   gap: 50px;
+  margin-top: 2px;
 }
 
 .header__profile-icon {

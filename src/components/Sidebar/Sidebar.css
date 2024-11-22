@@ -1,14 +1,13 @@
 .sidebar {
+  width: 367px; 
+  margin-right: 70px; 
+  overflow-y: auto;
   display: flex;
   flex-direction: column;
-  overflow-y: auto;
-  padding: 20px;
+  padding: 0; 
+  scrollbar-width: none; 
 }
-
 .sidebar::-webkit-scrollbar {
-  width: 6px;
+  display: none; 
 }
 
-.sidebar::-webkit-scrollbar-thumb {
-  border-radius: 3px;
-}

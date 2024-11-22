@@ -1,114 +1,12 @@
 .player {
   position: relative;
+  width: 100%; 
+  height: 700px;
 }
 
 .player__screen {
-  width: 100%;
-  object-fit: cover;
-}
-
-
-.player__playback {
-  display: flex;
-  align-items: center;
-  column-gap: 6px;
-  color: #fff;
-}
-
-.player__time-passed {
-  order: 1;
-}
-
-.player__time-left {
-  order: 3;
-}
-
-.player__progress {
-  order: 2;
-}
-
-.progress,
-.progress__bar {
-  height: 5px;
-  border-radius: 3px;
-}
-
-.progress {
-  position: relative;
-  top: 1px;
-  width: 100%;
-  background-color: rgba(255, 255, 255, 0.2); 
-}
-.progress:hover .progress__handle {
-  opacity: 1;
-}
-
-.progress__bar {
-  width: 0%;
-}
-
-.progress__handle {
-  position: absolute;
-  top: -50%;
-  width: 16px;
-  height: 16px;
-  border-radius: 50%;
-  background-color: #fff; 
-  opacity: 0;
-  transition: opacity 0.1s;
-  cursor: pointer;
-}
-
-.progress__bar_color_red {
-  background-color: #f00; 
-}
-
-.progress__bar_color_white {
-  background-color: #fff; 
-}
-
-.player__control {
-  display: none;
-}
-
-.player__control_visible {
-  display: inline-block;
-}
-
-.player__control_visible .icon {
-  width: 12px;
-  height: 12px;
-}
-
-
-.video__views {
-  display: block;
-  font-size: 12px;
-  margin-bottom: 30px;
-  color: rgba(0, 0, 0, 0.6);
-}
-
-.video__btn-group {
-  display: flex;
-  column-gap: 10px;
-  margin-bottom: 40px;
-  overflow: hidden;
-}
-
-.video__btn {
-  display: flex;
-  align-items: center;
-  column-gap: 8px;
-}
-
-.video__btn:last-child {
-  display: none;
-}
-
-.video__separator {
-  height: 1px;
-  border: 0;
-  margin-top: 0;
-  margin-bottom: 20px;
-  background-color: rgba(216, 216, 216, 0.5); 
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+  border-radius: 14px; 
 }

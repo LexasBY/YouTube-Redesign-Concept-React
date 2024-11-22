@@ -1,39 +1,56 @@
 .video {
-    margin-bottom: 20px;
-  }
-  
-  .video__thumbnail {
-    position: relative;
-  }
-  
-  .video__image {
-    width: 100%;
-    border-radius: 8px;
-  }
-  
-  .video__duration {
-    position: absolute;
-    bottom: 5px;
-    right: 5px;
-    background-color: rgba(0, 0, 0, 0.8);
-    color: white;
-    padding: 2px 5px;
-    border-radius: 4px;
-    font-size: 12px;
-  }
-  
-  .video__title {
-    font-size: 16px;
-    font-weight: bold;
-    margin: 10px 0 5px;
-  }
-  
-  .video__info {
-    font-size: 14px;
-    color: gray;
-  }
-  
-  .video-card__separator {
-    margin: 0 5px;
-  }
-  
+  width: 100%; 
+  margin-bottom: 24px;
+}
+
+.video__thumbnail {
+  position: relative;
+}
+
+.video__image {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.video__duration {
+  position: absolute;
+  bottom: 15px;
+  right: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 3px 10px;
+  border-radius: 14px;
+  font-size: 14px;
+  font-family: 'Mulish', sans-serif; 
+  font-weight: 400;
+  line-height: 18px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.video__title {
+  font-family: 'Mulish', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 32.63px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin: 10px 0 10px 0px; 
+}
+
+.video__info {
+  font-family: 'Mulish', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22.59px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: gray; 
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+}
+
