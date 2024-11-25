@@ -4,22 +4,24 @@ html,
 body {
   margin: 0;
   padding: 0;
-  overflow-x: hidden; 
-  min-height: 100vh; /* Гарантируем минимальную высоту */
+  min-height: 100%; 
   width: 100%;
+  font-family: 'Mulish', sans-serif;
 }
 
 .app-container {
   display: flex;
   flex-direction: column;
-  max-width: 1920px; 
+  max-width: 1920px;
   margin: 0 auto;
-  min-height: 100vh;
+  min-height: 100vh; 
   overflow: hidden; 
 }
 
 .page-content {
   display: flex;
-  flex-grow: 1; 
+  flex-grow: 1;
+  height: calc(100vh - 71px); 
   overflow: visible; 
 }
+

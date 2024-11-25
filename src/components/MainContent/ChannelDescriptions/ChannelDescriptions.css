@@ -16,7 +16,7 @@
 .author-details {
   flex-grow: 1; 
   width: 912px; 
-  height: 195px; 
+  height: auto; 
   display: flex; 
   flex-direction: column; 
   justify-content: space-between; 
@@ -34,7 +34,6 @@
   text-decoration-skip-ink: none;
   margin: 0;
   color: #19202c; 
-  letter-spacing: 0.01px;
 }
 
 .author-date {
@@ -59,7 +58,6 @@
   text-decoration-skip-ink: none;
   margin: 10px 0;
   color: #444;
-  letter-spacing: 0.3px;
 }
 
 .show-more {
@@ -73,7 +71,6 @@
   color: #d6d6d6;
   cursor: pointer;
   margin-top: 3px; 
-  letter-spacing: 0.4px;
 }
 
 .subscribe-button {
@@ -94,7 +91,7 @@
   margin-left: 285px;
   white-space: nowrap;
   transition: margin-left 0.3s ease; 
-  letter-spacing: 0.09px;
+  
 }
 
 
