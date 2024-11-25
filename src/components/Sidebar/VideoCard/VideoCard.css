@@ -55,5 +55,13 @@
   display: flex;
   justify-content: space-between; 
   align-items: center; 
+  letter-spacing: 0.2px;
+}
+
+.video__views{
+  margin-left: 1px;
+}
+.video__category{
+  margin-right: 2px;
 }
 

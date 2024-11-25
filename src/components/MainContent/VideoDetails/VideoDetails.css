@@ -86,7 +86,21 @@
 .video-action-btn:hover {
   background-color: rgba(0, 0, 0, 0.1);
 }
+.video-action-btn-like span{
+  margin-right: 5px;
+}
+.video-action-btn-like img{
+  margin-right: 6px;
+}
 
+.video-action-btn-dislike img{
+  margin-right: 5px;
+  margin-top: 5px;
+}
+.video-action-btn-dislike span{
+  margin-right: 7px;
+  margin-top: 2px;
+}
 .video-action-dots {
   background: none;
   border: none;
